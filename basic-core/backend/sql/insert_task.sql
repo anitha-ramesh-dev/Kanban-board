@@ -1,0 +1,3 @@
+INSERT INTO tasks(title)
+VALUES(%s)
+RETURNING id;
